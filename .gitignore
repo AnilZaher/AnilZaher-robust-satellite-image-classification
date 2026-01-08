@@ -1,0 +1,37 @@
+# ======================
+# DATA (keep folders, ignore contents)
+# ======================
+data/raw/*
+data/splits/*
+!data/raw/.gitkeep
+!data/splits/.gitkeep
+
+# ======================
+# MODEL CHECKPOINTS (DO NOT UPLOAD)
+# ======================
+models/checkpoints/*
+saves/checkpoints/*
+!models/checkpoints/.gitkeep
+!saves/checkpoints/.gitkeep
+
+
+# ======================
+# Propasal / oldVersions
+# ======================
+Proposal/
+oldVersions/
+
+# ======================
+# Jupyter / Python
+# ======================
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ======================
+# IDE / OS
+# ======================
+.idea/
+.env
+.DS_Store
+Thumbs.db
